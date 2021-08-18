@@ -1,0 +1,9 @@
+containers:
+  helloworld:
+    build_directory: project
+    dockerfile: Dockerfile
+
+tasks:
+  start:
+    run:
+      container: helloworld
